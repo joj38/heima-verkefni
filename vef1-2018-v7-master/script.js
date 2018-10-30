@@ -36,7 +36,6 @@ function start() {
 
 
 function play() {
-	 var seconds = 0;
 	 var timer1=new Date();
 	
 	
