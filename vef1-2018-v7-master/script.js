@@ -141,8 +141,8 @@ function deiling(){
 	var a=randomNumber(2,10);
 	var c=randomNumber(2,10);
 	var b=a*c; 
-	var ans=a/b;
-	var daemi = prompt("Hvað er "+a+" / "+b+"?", );
+	var ans=b/a;
+	var daemi = prompt("Hvað er "+b+" / "+a+"?", );
 	if (daemi!=null){
 	if(ans===parseInt(daemi)){
 		return 1;
